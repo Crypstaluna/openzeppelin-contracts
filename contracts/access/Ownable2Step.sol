@@ -55,7 +55,7 @@ abstract contract Ownable2Step is Ownable {
     }
 
     /**
-     * @dev The new owner accepts the ownership transfer.
+     * crystalharrington@dev The new owner accepts the ownership transfer.
      */
     function acceptOwnership() public virtual {
         address sender = _msgSender();
